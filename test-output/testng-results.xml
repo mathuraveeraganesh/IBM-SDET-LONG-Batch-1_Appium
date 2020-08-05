@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify the Title-'Test' Added To Google Keep Note Reminder]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Title Description-'Test Description' Added To Google Keep Note Reminder]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Reminder-'Today, 3:00 pm' Added To Google Keep Note Reminder]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45114" started-at="2020-08-05T11:47:35 IST" finished-at="2020-08-05T11:48:20 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45114" started-at="2020-08-05T11:47:35 IST" finished-at="2020-08-05T11:48:20 IST">
+      <class name="project.GoogleKeepNoteRemainder">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:project.GoogleKeepNoteRemainder@12cdcf4]" name="setUp" is-config="true" duration-ms="17219" started-at="2020-08-05T11:47:35 IST" finished-at="2020-08-05T11:47:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GoogleKeepNotes()[pri:0, instance:project.GoogleKeepNoteRemainder@12cdcf4]" name="GoogleKeepNotes" duration-ms="27269" started-at="2020-08-05T11:47:53 IST" finished-at="2020-08-05T11:48:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the Title-'Test' Added To Google Keep Note Reminder]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Title Description-'Test Description' Added To Google Keep Note Reminder]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Reminder-'Today, 3:00 pm' Added To Google Keep Note Reminder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GoogleKeepNotes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:project.GoogleKeepNoteRemainder@12cdcf4]" name="tearDown" is-config="true" duration-ms="586" started-at="2020-08-05T11:48:20 IST" finished-at="2020-08-05T11:48:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project.GoogleKeepNoteRemainder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
